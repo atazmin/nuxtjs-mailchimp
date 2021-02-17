@@ -1,0 +1,20 @@
+{
+  "name": "nuxtjs-mailchimp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "npm install && npm run build && npm run start"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.8.3",
+    "express": "^4.17.1",
+    "mailchimp-api-v3": "^1.14.0",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {}
+}
